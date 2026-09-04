@@ -1,0 +1,6 @@
+{
+  "name": "Catálogo de Mudas de Azaleia",
+  "description": "Landing page com catálogo de mudas de azaleias selecionadas, detalhes botânicos e compra direta via Stripe.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

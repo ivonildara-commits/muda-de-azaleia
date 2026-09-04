@@ -1,0 +1,180 @@
+import { Product } from '../types';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 'flor-verm-a050',
+    name: 'Muda de Azaleia Flor Vermelha',
+    price: 7.50,
+    formattedPrice: 'R$ 7,50',
+    sku: 'A 050',
+    description: 'FLOR VERMELHA - Pétalas vermelhas vibrantes e copa densa. Excelente para vasos decorativos e canteiros ensolarados.',
+    imageUrl: 'https://mondiniplantas.cdn.magazord.com.br/img/2025/06/produto/7128/muda-de-azaleia.jpg',
+    category: 'PLANTA AZALEIA',
+    paymentUrl: 'https://buy.stripe.com/test_aFabJ0dgf67A0pV7QQ5J600',
+    colorHex: '#dc2626',
+    highlightTag: 'Mais Popular',
+    flowerType: 'Azaleia Dobrada Vermelha',
+    sunlight: 'Meia-sombra a sol pleno',
+    watering: '2 a 3x na semana (solo úmido)',
+    estimatedHeight: '20 a 30 cm (muda enraizada)'
+  },
+  {
+    id: 'flor-rosa-a030',
+    name: 'Muda de Azaleia Flor Rosa',
+    price: 7.50,
+    formattedPrice: 'R$ 7,50',
+    sku: 'A 030',
+    description: 'ROSA - Tom rosa clássico de tonalidade intermediária, florescimento exuberante em várias épocas do ano.',
+    imageUrl: 'https://m.media-amazon.com/images/I/71IOYOwvAvL._SY879_.jpg',
+    category: 'ROSA',
+    paymentUrl: 'https://buy.stripe.com/test_bJe4gy7VV53w6Ojefe5J601',
+    colorHex: '#f43f5e',
+    highlightTag: 'Floração Rápida',
+    flowerType: 'Azaleia Clássica Rosa',
+    sunlight: 'Sol da manhã ou meia-sombra',
+    watering: 'Moderada, evitar encharcamento',
+    estimatedHeight: '20 a 30 cm (muda enraizada)'
+  },
+  {
+    id: 'flor-pink-a020',
+    name: 'Muda de Azaleia Flor Pink',
+    price: 7.50,
+    formattedPrice: 'R$ 7,50',
+    sku: 'A  020',
+    description: 'PINK - Tonalidade pink viva com nuances rosadas nas bordas das pétalas, criando contraste marcante no jardim.',
+    imageUrl: 'https://media.istockphoto.com/id/1777469439/pt/foto/azaleas-flowers-with-leaves-pink-flowers-isolated-on-white-background-with-clipping-path.jpg?s=2048x2048&w=is&k=20&c=fqheiXrd96lMif3yJCEEsGcfwnBSssxHe7VRb_dax8U=',
+    category: 'PINK C/ ROSA',
+    paymentUrl: 'https://buy.stripe.com/test_eVq14m8ZZeE6dcH0oo5J602',
+    colorHex: '#ec4899',
+    highlightTag: 'Tom Vibrante',
+    flowerType: 'Azaleia Pink Viva',
+    sunlight: 'Sol pleno ou meia-sombra',
+    watering: 'Rega regular após secar a superfície',
+    estimatedHeight: '20 a 25 cm (muda enraizada)'
+  },
+  {
+    id: 'rosa-claro-a060',
+    name: 'Muda de Azaleia Rosa Claro',
+    price: 7.50,
+    formattedPrice: 'R$ 7,50',
+    sku: 'A 060',
+    description: 'ROSA CLARO - Pétalas suaves e delicadas em tom pastel, perfeita para decorações sofisticadas em varandas e interiores iluminados.',
+    imageUrl: 'https://cdn.leroymerlin.com.br/products/planta_natural_azaleia_89203870_63d3_600x600.jpg',
+    category: 'ROSA CLARO',
+    paymentUrl: 'https://buy.stripe.com/test_aFaeVc8ZZanQb4z2ww5J603',
+    colorHex: '#fbcfe8',
+    highlightTag: 'Delicadeza Pastel',
+    flowerType: 'Azaleia Suave Rosa Claro',
+    sunlight: 'Luz difusa abundante ou sol matinal',
+    watering: '2 vezes por semana',
+    estimatedHeight: '20 a 30 cm (muda enraizada)'
+  },
+  {
+    id: 'pink-escuro-a040',
+    name: 'Muda de Azaleia Pink Escuro',
+    price: 7.50,
+    formattedPrice: 'R$ 7,50',
+    sku: 'A  040',
+    description: 'PINK ESCURO - Magenta e fúcsia profundo de alta intensidade visual. Folhagem verde-escura espessa e vigorosa.',
+    imageUrl: 'https://veja.abril.com.br/wp-content/uploads/2017/08/azaleia-040.jpg',
+    category: 'PINK ESCURO',
+    paymentUrl: 'https://buy.stripe.com/test_14AeVc0ttbrU8Wr8UU5J604',
+    colorHex: '#be185d',
+    highlightTag: 'Cores Intensas',
+    flowerType: 'Azaleia Fúcsia Intenso',
+    sunlight: 'Sol pleno ou meia-sombra',
+    watering: 'Manter substrato levemente úmido',
+    estimatedHeight: '20 a 30 cm (muda enraizada)'
+  },
+  {
+    id: 'branco-c-rosa-a100',
+    name: 'Muda de Azaleia Branca c/ Rosa',
+    price: 8.50,
+    formattedPrice: 'R$ 8,50',
+    sku: 'A100',
+    description: 'BRANCA C/ROSA - Bicolor deslumbrante com fundo branco neve e pinceladas rosadas nas extremidades das pétalas.',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNaja1zrAF3IzaLNfaYkjU4PAJujT_i090GtHRxtuMKA&s',
+    category: 'BRANCA COM ROSA',
+    paymentUrl: 'https://buy.stripe.com/test_9B614ma431RkdcH4EE5J605',
+    colorHex: '#fda4af',
+    highlightTag: 'Bicolor Especial',
+    flowerType: 'Azaleia Bicolor Branca & Rosa',
+    sunlight: 'Meia-sombra protegida de vento',
+    watering: '2 a 3 vezes por semana',
+    estimatedHeight: '25 a 35 cm (muda enraizada)'
+  },
+  {
+    id: 'branca-c-vermelha-a120',
+    name: 'Muda de Azaleia Branca c/ Vermelha',
+    price: 8.50,
+    formattedPrice: 'R$ 8,50',
+    sku: 'A120',
+    description: 'BRANCA C/VERMELHA - Combinação nobre e rara de fundo alvo com listras e rajadas vermelho carmim nas pétalas.',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShe0YALJjbHLvr-kUE1KMLZFQ9f-Z5GpPsCMRXF4ejiw&s',
+    category: 'BRANCA COM VERMELHA',
+    paymentUrl: 'https://buy.stripe.com/test_4gM3cuekjanQb4zgnm5J606',
+    colorHex: '#e11d48',
+    highlightTag: 'Raridade Botânica',
+    flowerType: 'Azaleia Rajada Branca & Vermelha',
+    sunlight: 'Sol ameno ou meia-sombra',
+    watering: 'Rega balanceada no substrato',
+    estimatedHeight: '25 a 35 cm (muda enraizada)'
+  },
+  {
+    id: 'branca-c-salmao-a130',
+    name: 'Muda de Azaleia Branca c/ Salmão',
+    price: 8.50,
+    formattedPrice: 'R$ 8,50',
+    sku: 'A130',
+    description: 'BRANCA C/SALMÃO - Sofisticação pura com pétalas alvas matizadas em tonalidades quentes de pêssego e salmão.',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYkqmRYSsiSu7R-v-EROJpo4uiANMUoAccIGGDTRBsiKAvTNSXiiIB-Ng&s',
+    category: 'BRANCA COM SALMÃO',
+    paymentUrl: 'https://buy.stripe.com/test_4gM4gy6RReE66Oj4EE5J607',
+    colorHex: '#fb923c',
+    highlightTag: 'Exclusiva Salmão',
+    flowerType: 'Azaleia Branca & Salmão Pêssego',
+    sunlight: 'Luz indireta forte ou sol matinal',
+    watering: '2 vezes na semana',
+    estimatedHeight: '25 a 35 cm (muda enraizada)'
+  },
+  {
+    id: 'lilas-a140',
+    name: 'Muda de Azaleia Lilás',
+    price: 8.50,
+    formattedPrice: 'R$ 8,50',
+    sku: 'A140',
+    description: 'LILAS - Tom lavanda e lilás suave muito procurado para harmonização de jardins zen, jardineiras e paisagismo.',
+    imageUrl: 'https://cdn-cosmos.bluesoft.com.br/products/7896553642377',
+    category: 'LILAS',
+    paymentUrl: 'https://buy.stripe.com/test_eVq9ASekjanQ6Oj3AA5J608',
+    colorHex: '#a855f7',
+    highlightTag: 'Tom Lavanda Zen',
+    flowerType: 'Azaleia Lilás Lavanda',
+    sunlight: 'Meia-sombra a sol parcial',
+    watering: '2 a 3 vezes por semana',
+    estimatedHeight: '25 a 35 cm (muda enraizada)'
+  }
+];
+
+export const CARE_TIPS = [
+  {
+    title: 'Iluminação Ideal',
+    desc: 'As azaleias amam luminosidade! Devem receber pelo menos 4 horas de sol suave por dia (preferencialmente matinal) ou luz difusa brilhante.',
+    icon: 'Sun'
+  },
+  {
+    title: 'Rega Sem Encharcar',
+    desc: 'Mantenha o substrato levemente úmido. Regue quando a camada superficial da terra começar a secar ao toque, evitando molhar as flores.',
+    icon: 'Droplets'
+  },
+  {
+    title: 'Solo & Nutrição',
+    desc: 'Preferem solo levemente ácido e bem drenado com terra vegetal e húmus de minhoca. Adube após a floração com torta de mamona ou NPK 04-14-08.',
+    icon: 'Sprout'
+  },
+  {
+    title: 'Poda de Formação',
+    desc: 'Após a queda das flores, faça uma leve poda de limpeza retirando galhos secos e pontas para estimular brotos novos e flores no próximo ciclo.',
+    icon: 'Scissors'
+  }
+];
